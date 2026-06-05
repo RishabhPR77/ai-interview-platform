@@ -2,13 +2,13 @@
 
 > **Adaptive AI-powered interview system with real-time multimodal behavioural analysis**
 
-🥈 **1st Runner-Up — SSH '26 National Hackathon** &nbsp;|&nbsp; Private Repository · Active Development
+🥈 **1st Runner-Up - SSH '26 National Hackathon** &nbsp;|&nbsp; Private Repository · Active Development
 
 ---
 
 ## What It Does
 
-Most interview tools just ask questions. This one *adapts* — it listens, watches, scores, and decides what to ask next based on how well you answered the last one.
+Most interview tools just ask questions. This one *adapts* - it listens, watches, scores, and decides what to ask next based on how well you answered the last one.
 
 Give it a job description and a resume. It generates a tailored question bank, conducts a full video interview, analyses your speech and body language in real time, and produces a detailed hiring report with a hire/no-hire recommendation.
 
@@ -88,24 +88,24 @@ Interviews are scored across configurable dimensions that must sum to 100:
 If the candidate closes the browser mid-interview, the session is saved to localStorage and can be resumed exactly where it left off.
 
 ### 📄 PDF Report Export
-Final report includes overall score, hire recommendation with confidence level, per-question breakdown, behavioral heatmap, strengths, weaknesses, and red flags — all exportable as PDF.
+Final report includes overall score, hire recommendation with confidence level, per-question breakdown, behavioral heatmap, strengths, weaknesses, and red flags - all exportable as PDF.
 
 ---
 
 ## Tech Stack
 
 **Backend**
-- `FastAPI` — stateless REST API, 3 endpoints
-- `Groq API (LLaMA-3.3-70B)` — question generation, adaptive selection, scoring, final report
-- `Whisper` — audio transcription and speech signal extraction
-- `MediaPipe` — face mesh, pose, and hand landmark detection
-- `OpenCV` — video frame extraction and preprocessing
-- `Pydantic V2` — request/response validation
+- `FastAPI` - stateless REST API, 3 endpoints
+- `Groq API (LLaMA-3.3-70B)` - question generation, adaptive selection, scoring, final report
+- `Whisper` - audio transcription and speech signal extraction
+- `MediaPipe` - face mesh, pose, and hand landmark detection
+- `OpenCV` - video frame extraction and preprocessing
+- `Pydantic V2` - request/response validation
 
 **Frontend**
-- `React 18 + TypeScript` — full interview flow
-- `Vite` — build tooling
-- `pdfjs-dist` — resume PDF parsing on upload
+- `React 18 + TypeScript` - full interview flow
+- `Vite` - build tooling
+- `pdfjs-dist` - resume PDF parsing on upload
 - Session persistence via localStorage
 
 ---
@@ -208,7 +208,7 @@ Generate question bank (1.5× num_questions asked)
 
 ## Project Status
 
-🔒 **Repository is private** — the project is under active development by the team toward a production release.
+🔒 **Repository is private** - the project is under active development by the team toward a production release.
 
 Built at **SSH '26 National Hackathon** where it placed **1st Runner-Up** competing against top student teams nationwide.
 
